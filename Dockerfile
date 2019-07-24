@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM frolvlad/alpine-oraclejre8
 VOLUME /tmp
 ARG profiles=docker
 ENV SPRING_PROFILES_ACTIVE=docker,$profiles
